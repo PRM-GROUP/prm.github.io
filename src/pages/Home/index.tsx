@@ -1,5 +1,5 @@
 import styles from './home.module.css'
-import Laser from '../../assets/laser.svg';
+import Laser from '../../assets/Laser-Icon.svg';
 import Transfer from '../../assets/transfer.svg';
 import SilkScreen from '../../assets/Silk.svg';
 import WhatsApp from '../../assets/whatsapp.svg';
