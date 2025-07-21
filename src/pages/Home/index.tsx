@@ -1,6 +1,6 @@
 import styles from './home.module.css'
 import Laser from '../../assets/Laser-Icon.svg';
-import Transfer from '../../assets/transfer-Icon.svg';
+import Transfer from '../../assets/Transfer-Icon.svg';
 import SilkScreen from '../../assets/Silk-Icon.svg';
 import WhatsApp from '../../assets/whatsapp.svg';
 import Map_Icon from '../../assets/map.svg';
