@@ -1,6 +1,7 @@
 import styles from './services.module.css';
 import ImgBaixoRelevo from "../../assets/BAIXO RELEVO.jpg";
-import ImgDTF from "../../assets/DTF.jpg"
+import ImgDTF from "../../assets/DTF.png"
+import ImgManuseio from "../../assets/MANUSEIO.png";
 import ImgLaser from "../../assets/LASER.jpg"
 import ImgSublimacao from "../../assets/SUBLIMAÇÃO.jpg"
 import ImgSilk from "../../assets/SILK.jpg"
@@ -57,7 +58,7 @@ export function Services() {
             <div className={styles.line}></div>
           </div>
 
-          <img src="https://placehold.co/540x500" alt="Trocar placeholder" />
+          <img src={ImgManuseio} alt="Imagem Manuseio" />
         </div>
 
         <div id='silk_screen' className={styles.service__item}>
