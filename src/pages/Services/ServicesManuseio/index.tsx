@@ -1,4 +1,4 @@
-import ImgDTF from "../../../assets/DTF.png"
+import ImgDTF from "../../assets/MANUSEIO.png"
 import styles from "./ServiceDetail.module.css";
 
 import WhatsApp from '../../../assets/whatsapp.svg';
@@ -7,17 +7,17 @@ import Email_Icon from '../../../assets/email.svg';
 import Phone_Icon from '../../../assets/phone.svg';
 import { HashLink as Link } from 'react-router-hash-link';
 
-export function DTF() {
+export function Manuseio() {
 
   return(
   <main className={styles.main}>
     <div className={`${styles.service__item} container`}>
-          <img src={ImgDTF} alt="Imagem DTF" />
+          <img src={ImgDTF} alt="Imagem Manuseio" />
 
-          <div id='baixo_relevo' className={styles.service__item__content}>
+          <div id='manuseio' className={styles.service__item__content}>
             <div className={styles.line}></div>
-            <h2>DTF</h2>
-           <p>A técnica DTF (Direct to Film) com adesivo é um método de personalização gráfica que imprime imagens em alta definição em um filme especial com tintas pigmentadas e pó adesivo termofusível. Após aquecimento, o adesivo é ativado para transferência. Seu diferencial é a aplicação em superfícies não têxteis (vidro, metal, plástico, madeira), ampliando a personalização para brindes, embalagens e decoração. A imagem transferida mantém fidelidade de cores, resistência, flexibilidade e durabilidade. É uma solução versátil, com acabamento profissional e aplicação simplificada, ideal para produções em pequena e média escala.</p>
+            <h2>Manuseio</h2>
+           <p>O manuseio geral oferecido é um processo de desembalagem, conferencia, embalagem de forma que o cliente pode solicitar um manuseio especial, como montagem de kits. Se trata de um processo minucioso e focado em atender da melhor maneira a demanda da sua ação promocional.</p>
         <div className={styles.line}></div>
       </div>
     </div>
