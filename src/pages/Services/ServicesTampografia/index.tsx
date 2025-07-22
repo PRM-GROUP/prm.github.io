@@ -1,4 +1,4 @@
-import ImgSublimacao from "../../../assets/SUBLIMAÇÃO.jpg"
+import ImgTampografia from "../../../assets/TAMPOGRAFIA.jpg"
 import styles from "./ServiceDetail.module.css";
 
 import WhatsApp from '../../../assets/whatsapp.svg';
@@ -7,17 +7,17 @@ import Email_Icon from '../../../assets/email.svg';
 import Phone_Icon from '../../../assets/phone.svg';
 import { HashLink as Link } from 'react-router-hash-link';
 
-export function Sublimacao() {
+export function Tampografia() {
 
   return(
   <main className={styles.main}>
     <div className={`${styles.service__item} container`}>
-          <img src={ImgSublimacao} alt="Imagem Sublimacao" />
+          <img src={ImgTampografia} alt="Imagem Tampografia" />
 
-          <div id='sublimacao' className={styles.service__item__content}>
+          <div id='tampografia' className={styles.service__item__content}>
             <div className={styles.line}></div>
-            <h2>Sublimação</h2>
-           <p>Se trata de um processo de transferência de gravação de uma superfície para outra, resultando em uma impressão de alta qualidade. Amplamente utilizado em canecas de procelana. A sublimação oferece uma reprodução nítida de designs complexos e detalhados.</p>
+            <h2>Tampografia</h2>
+           <p>A tinta é transferida de um clichê para o produto através de um tampão de silicone, resultando em detalhes nítidos mesmo em superfícies irregulares. Amplamente empregada em brindes corporativos como canetas, produtos eletrônicos e itens de escritório, a Tampografia oferece uma personalização durável e de qualidade.</p>
         <div className={styles.line}></div>
       </div>
     </div>
