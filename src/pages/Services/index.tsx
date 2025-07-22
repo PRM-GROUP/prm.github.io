@@ -9,6 +9,7 @@ import ImgTampografia from "../../assets/TAMPOGRAFIA.jpg"
 import ImgTransfer from "../../assets/TRANSFER.jpg"
 import ImgDigital from "../../assets/DIGITAL.jpg"
 import ImgDigital360 from "../../assets/DIGITAL 360°.jpg"
+import { Link } from 'react-router-dom';
 
 export function Services() {
  
@@ -24,6 +25,8 @@ export function Services() {
             <div className={styles.line}></div>
             <h2>Baixo Relevo</h2>
             <p>A gravação em baixo relevo é um processo que cria marcas ou desenhos em uma superfície, removendo uma fina camada do material para formar um efeito de profundidade. Diferente do alto relevo, onde as formas se projetam para fora, no baixo relevo as áreas gravadas ficam abaixo do nível da superfície, criando um efeito sutil e elegante. Esse método é amplamente utilizado para personalizar produtos produzidos em couro e courino, conferindo-lhes durabilidade e sofisticação estética.</p>
+            
+            <Link className={styles.button} to="/services">Conheça mais</Link>
             <div className={styles.line}></div>
           </div>
         </div>
@@ -33,6 +36,8 @@ export function Services() {
             <div className={styles.line}></div>
             <h2>DTF</h2>
             <p>A técnica DTF (Direct to Film) com adesivo é um método de personalização gráfica que imprime imagens em alta definição em um filme especial com tintas pigmentadas e pó adesivo termofusível. Após aquecimento, o adesivo é ativado para transferência. Seu diferencial é a aplicação em superfícies não têxteis (vidro, metal, plástico, madeira), ampliando a personalização para brindes, embalagens e decoração. A imagem transferida mantém fidelidade de cores, resistência, flexibilidade e durabilidade. É uma solução versátil, com acabamento profissional e aplicação simplificada, ideal para produções em pequena e média escala.</p>
+
+            <Link className={styles.button} to="/services">Conheça mais</Link>
             <div className={styles.line}></div>
           </div>
 
