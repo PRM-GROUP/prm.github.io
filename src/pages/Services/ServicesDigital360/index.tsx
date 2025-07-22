@@ -1,4 +1,4 @@
-import ImgDTF from "../../../assets/DTF.png"
+import ImgDigital360 from "../../../assets/DIGITAL 360°.jpg"
 import styles from "./ServiceDetail.module.css";
 
 import WhatsApp from '../../../assets/whatsapp.svg';
@@ -7,17 +7,17 @@ import Email_Icon from '../../../assets/email.svg';
 import Phone_Icon from '../../../assets/phone.svg';
 import { HashLink as Link } from 'react-router-hash-link';
 
-export function Manuseio() {
+export function Digital360() {
 
   return(
   <main className={styles.main}>
     <div className={`${styles.service__item} container`}>
-          <img src={ImgDTF} alt="Imagem DTF" />
+          <img src={ImgDigital360} alt="Imagem laser" />
 
-          <div id='baixo_relevo' className={styles.service__item__content}>
+          <div id='digital360' className={styles.service__item__content}>
             <div className={styles.line}></div>
-            <h2>DTF</h2>
-           <p>A técnica DTF (Direct to Film) com adesivo é um método de personalização gráfica que imprime imagens em alta definição em um filme especial com tintas pigmentadas e pó adesivo termofusível. Após aquecimento, o adesivo é ativado para transferência. Seu diferencial é a aplicação em superfícies não têxteis (vidro, metal, plástico, madeira), ampliando a personalização para brindes, embalagens e decoração. A imagem transferida mantém fidelidade de cores, resistência, flexibilidade e durabilidade. É uma solução versátil, com acabamento profissional e aplicação simplificada, ideal para produções em pequena e média escala.</p>
+            <h2>Gravação Digital UV 360</h2>
+           <p>A gravação digital UV 360 é uma evolução da impressão UV tradicional, focada na personalização completa de objetos cilíndricos ou curvos, como garrafas e canecas, em toda a sua circunferência. Ela utiliza a mesma tecnologia de cura por luz UV para garantir impressões duráveis, resistentes e com alta fidelidade de cores, mas se diferencia por sua capacidade de imprimir em 360 graus, através da rotação controlada do objeto, permitindo detalhes finos e efeitos como relevo em superfícies curvas.</p>
         <div className={styles.line}></div>
       </div>
     </div>

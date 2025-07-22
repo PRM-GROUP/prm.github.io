@@ -1,4 +1,4 @@
-import ImgDTF from "../../../assets/DTF.png"
+import ImgDigital from "../../../assets/DIGITAL.jpg"
 import styles from "./ServiceDetail.module.css";
 
 import WhatsApp from '../../../assets/whatsapp.svg';
@@ -7,17 +7,17 @@ import Email_Icon from '../../../assets/email.svg';
 import Phone_Icon from '../../../assets/phone.svg';
 import { HashLink as Link } from 'react-router-hash-link';
 
-export function Manuseio() {
+export function Digital() {
 
   return(
   <main className={styles.main}>
     <div className={`${styles.service__item} container`}>
-          <img src={ImgDTF} alt="Imagem DTF" />
+          <img src={ImgDigital} alt="Imagem laser" />
 
-          <div id='baixo_relevo' className={styles.service__item__content}>
+          <div id='digital' className={styles.service__item__content}>
             <div className={styles.line}></div>
-            <h2>DTF</h2>
-           <p>A técnica DTF (Direct to Film) com adesivo é um método de personalização gráfica que imprime imagens em alta definição em um filme especial com tintas pigmentadas e pó adesivo termofusível. Após aquecimento, o adesivo é ativado para transferência. Seu diferencial é a aplicação em superfícies não têxteis (vidro, metal, plástico, madeira), ampliando a personalização para brindes, embalagens e decoração. A imagem transferida mantém fidelidade de cores, resistência, flexibilidade e durabilidade. É uma solução versátil, com acabamento profissional e aplicação simplificada, ideal para produções em pequena e média escala.</p>
+            <h2>Gravação Digital UV</h2>
+           <p>A gravação digital UV é um processo de impressão direta que utiliza tintas especiais curadas por luz ultravioleta, resultando em impressões resistentes, duráveis e com alta definição em diversas superfícies. Este método permite cores vivas e efeitos visuais sofisticados, sendo ideal para tiragens curtas e médias devido à sua agilidade, personalização e baixo custo inicial, já que dispensa o uso de clichês ou matrizes.</p>
         <div className={styles.line}></div>
       </div>
     </div>
