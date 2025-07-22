@@ -1,4 +1,4 @@
-import ImgDTF from "../../assets/MANUSEIO.png"
+import ImgManuseio from "../../../assets/MANUSEIO.png"
 import styles from "./ServiceDetail.module.css";
 
 import WhatsApp from '../../../assets/whatsapp.svg';
@@ -12,7 +12,7 @@ export function Manuseio() {
   return(
   <main className={styles.main}>
     <div className={`${styles.service__item} container`}>
-          <img src={ImgDTF} alt="Imagem Manuseio" />
+          <img src={ImgManuseio} alt="Imagem Manuseio" />
 
           <div id='manuseio' className={styles.service__item__content}>
             <div className={styles.line}></div>
