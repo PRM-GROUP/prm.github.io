@@ -10,6 +10,7 @@ import { Manuseio } from './pages/Services/ServicesManuseio';
 import { Digital } from './pages/Services/ServicesDigital';
 import { Digital360 } from './pages/Services/ServicesDigital360';
 import { Silk } from './pages/Services/ServicesSilk';
+import { Sublimacao } from './pages/Services/ServicesSublimacao';
 
 export function MainRoutes() {
   return (
@@ -25,6 +26,7 @@ export function MainRoutes() {
         <Route path="/services/digital" element={<Digital />} />
         <Route path="/services/digital360" element={<Digital360 />} />
         <Route path="/services/silk" element={<Silk />} />
+        <Route path="/services/sublimacao" element={<Silk />} />
       </Route>
       <Route path="*" element={<Navigate to="/" />} />
     </Routes>
