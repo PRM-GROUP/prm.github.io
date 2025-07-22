@@ -90,7 +90,7 @@ export function Services() {
             <p>Um método tradicional e altamente eficaz. Neste processo, a tinta é pressionada através de uma tela esticada sobre o objeto, criando um design durável e de alta qualidade. Aplicação em camisetas, bonés, sacolas e uma variedade de materiais promocionais, a serigrafia é particularmente recomendada para grandes tiragens.</p>
 
             <div className={styles.centerButton}>
-              <Link className={styles.button} to="/services/baixorelevo">Conheça mais</Link>
+              <Link className={styles.button} to="/services/silk">Conheça mais</Link>
             </div>
 
             <div className={styles.line}></div>
@@ -102,11 +102,11 @@ export function Services() {
             <div className={styles.line}></div>
             <h2>Sublimação</h2>
             <p>Se trata de um processo de transferência de gravação de uma superfície para outra, resultando em uma impressão de alta qualidade. Amplamente utilizado em canecas de procelana. A sublimação oferece uma reprodução nítida de designs complexos e detalhados.</p>
-
+            
             <div className={styles.centerButton}>
-              <Link className={styles.button} to="/services/baixorelevo">Conheça mais</Link>
-            </div>
-
+              <Link className={styles.button} to="/services/sublimacao">Conheça mais</Link>
+            </div>            
+            
             <div className={styles.line}></div>
           </div>
 
@@ -120,9 +120,9 @@ export function Services() {
             <div className={styles.line}></div>
             <h2>Tampografia</h2>
             <p>A tinta é transferida de um clichê para o produto através de um tampão de silicone, resultando em detalhes nítidos mesmo em superfícies irregulares. Amplamente empregada em brindes corporativos como canetas, produtos eletrônicos e itens de escritório, a Tampografia oferece uma personalização durável e de qualidade.</p>
-
+            
             <div className={styles.centerButton}>
-              <Link className={styles.button} to="/services/baixorelevo">Conheça mais</Link>
+              <Link className={styles.button} to="/services/tampografia">Conheça mais</Link>
             </div>
 
             <div className={styles.line}></div>
