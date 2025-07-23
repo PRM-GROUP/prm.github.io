@@ -18,6 +18,10 @@ export function Laser() {
             <div className={styles.line}></div>
             <h2>Laser</h2>
            <p>A gravação a laser é um processo de marcação de alta precisão que utiliza um feixe de laser para corrosão da superfície de um material, criando marcas permanentes. Essa técnica é amplamente utilizada em diversos materiais como metal, vidro e madeira, devido à sua capacidade de produzir resultados detalhados e permanentes</p>
+           
+            <div className={styles.centerButton}>
+              <Link className={styles.button} to="/services">Mais Serviços</Link>
+            </div>
         <div className={styles.line}></div>
       </div>
     </div>

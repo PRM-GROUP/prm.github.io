@@ -27,6 +27,11 @@ main {
     border: none;
 }
 
+.centerButton {
+    display: flex;
+    justify-content: center;
+}
+
 /* CONTACT */
 
 .container__contact {

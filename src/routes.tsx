@@ -6,7 +6,6 @@ import { LayoutWithHeader } from './LayoutWithHeader';
 import { DTF } from './pages/Services/ServicesDTF';
 import { Laser } from './pages/Services/ServicesLaser';
 import { Transfer } from './pages/Services/ServicesTransfer';
-import { Manuseio } from './pages/Services/ServicesManuseio';
 import { Digital } from './pages/Services/ServicesDigital';
 import { Digital360 } from './pages/Services/ServicesDigital360';
 import { Silk } from './pages/Services/ServicesSilk';
@@ -19,16 +18,15 @@ export function MainRoutes() {
       <Route element={<LayoutWithHeader />}>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/services/gravacao-em-baixo-relevo" element={<BaixoRelevo />} />
-        <Route path="/services/dtf" element={<DTF />} />
-        <Route path='/services/gravacao-a-laser' element={<Laser />} />
-        <Route path="/services/transfer" element={<Transfer />} />
-        <Route path="/services/manuseio" element={<Manuseio />} />
-        <Route path="/services/digital" element={<Digital />} />
-        <Route path="/services/digital360" element={<Digital360 />} />
-        <Route path="/services/silk" element={<Silk />} />
-        <Route path="/services/sublimacao" element={<Sublimacao />} />
-        <Route path="/services/tampografia" element={<Tampografia />} />
+        <Route path="/gravacao-em-baixo-relevo" element={<BaixoRelevo />} />
+        <Route path="/dtf" element={<DTF />} />
+        <Route path='/gravacao-a-laser' element={<Laser />} />
+        <Route path="/transfer" element={<Transfer />} />
+        <Route path="/digital" element={<Digital />} />
+        <Route path="/digital360" element={<Digital360 />} />
+        <Route path="/silk" element={<Silk />} />
+        <Route path="/sublimacao" element={<Sublimacao />} />
+        <Route path="/tampografia" element={<Tampografia />} />
       </Route>
       <Route path="*" element={<Navigate to="/" />} />
     </Routes>

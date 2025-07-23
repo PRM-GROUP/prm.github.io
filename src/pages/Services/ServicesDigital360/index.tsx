@@ -18,6 +18,10 @@ export function Digital360() {
             <div className={styles.line}></div>
             <h2>Gravação Digital UV 360</h2>
            <p>A gravação digital UV 360 é uma evolução da impressão UV tradicional, focada na personalização completa de objetos cilíndricos ou curvos, como garrafas e canecas, em toda a sua circunferência. Ela utiliza a mesma tecnologia de cura por luz UV para garantir impressões duráveis, resistentes e com alta fidelidade de cores, mas se diferencia por sua capacidade de imprimir em 360 graus, através da rotação controlada do objeto, permitindo detalhes finos e efeitos como relevo em superfícies curvas.</p>
+           
+            <div className={styles.centerButton}>
+              <Link className={styles.button} to="/services">Mais Serviços</Link>
+            </div>
         <div className={styles.line}></div>
       </div>
     </div>

@@ -18,6 +18,10 @@ export function Tampografia() {
             <div className={styles.line}></div>
             <h2>Tampografia</h2>
            <p>A tinta é transferida de um clichê para o produto através de um tampão de silicone, resultando em detalhes nítidos mesmo em superfícies irregulares. Amplamente empregada em brindes corporativos como canetas, produtos eletrônicos e itens de escritório, a Tampografia oferece uma personalização durável e de qualidade.</p>
+           
+            <div className={styles.centerButton}>
+              <Link className={styles.button} to="/services">Mais Serviços</Link>
+            </div>
         <div className={styles.line}></div>
       </div>
     </div>

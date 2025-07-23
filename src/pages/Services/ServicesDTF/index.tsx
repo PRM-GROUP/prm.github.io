@@ -18,6 +18,10 @@ export function DTF() {
             <div className={styles.line}></div>
             <h2>DTF</h2>
            <p>A técnica DTF (Direct to Film) com adesivo é um método de personalização gráfica que imprime imagens em alta definição em um filme especial com tintas pigmentadas e pó adesivo termofusível. Após aquecimento, o adesivo é ativado para transferência. Seu diferencial é a aplicação em superfícies não têxteis (vidro, metal, plástico, madeira), ampliando a personalização para brindes, embalagens e decoração. A imagem transferida mantém fidelidade de cores, resistência, flexibilidade e durabilidade. É uma solução versátil, com acabamento profissional e aplicação simplificada, ideal para produções em pequena e média escala.</p>
+           
+            <div className={styles.centerButton}>
+              <Link className={styles.button} to="/services">Mais Serviços</Link>
+            </div>
         <div className={styles.line}></div>
       </div>
     </div>

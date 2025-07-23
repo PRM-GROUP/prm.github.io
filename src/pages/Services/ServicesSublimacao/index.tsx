@@ -18,6 +18,10 @@ export function Sublimacao() {
             <div className={styles.line}></div>
             <h2>Sublimação</h2>
            <p>Se trata de um processo de transferência de gravação de uma superfície para outra, resultando em uma impressão de alta qualidade. Amplamente utilizado em canecas de procelana. A sublimação oferece uma reprodução nítida de designs complexos e detalhados.</p>
+           
+            <div className={styles.centerButton}>
+              <Link className={styles.button} to="/services">Mais Serviços</Link>
+            </div>
         <div className={styles.line}></div>
       </div>
     </div>

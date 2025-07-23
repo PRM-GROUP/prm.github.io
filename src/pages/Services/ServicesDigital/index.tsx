@@ -18,6 +18,10 @@ export function Digital() {
             <div className={styles.line}></div>
             <h2>Gravação Digital UV</h2>
            <p>A gravação digital UV é um processo de impressão direta que utiliza tintas especiais curadas por luz ultravioleta, resultando em impressões resistentes, duráveis e com alta definição em diversas superfícies. Este método permite cores vivas e efeitos visuais sofisticados, sendo ideal para tiragens curtas e médias devido à sua agilidade, personalização e baixo custo inicial, já que dispensa o uso de clichês ou matrizes.</p>
+           
+            <div className={styles.centerButton}>
+              <Link className={styles.button} to="/services">Mais Serviços</Link>
+            </div>
         <div className={styles.line}></div>
       </div>
     </div>

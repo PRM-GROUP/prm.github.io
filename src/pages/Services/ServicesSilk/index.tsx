@@ -18,6 +18,10 @@ export function Silk() {
             <div className={styles.line}></div>
             <h2>Silk Screen</h2>
            <p>Um método tradicional e altamente eficaz. Neste processo, a tinta é pressionada através de uma tela esticada sobre o objeto, criando um design durável e de alta qualidade. Aplicação em camisetas, bonés, sacolas e uma variedade de materiais promocionais, a serigrafia é particularmente recomendada para grandes tiragens.</p>
+           
+            <div className={styles.centerButton}>
+              <Link className={styles.button} to="/services">Mais Serviços</Link>
+            </div>
         <div className={styles.line}></div>
       </div>
     </div>

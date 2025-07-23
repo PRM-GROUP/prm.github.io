@@ -18,6 +18,10 @@ export function Transfer() {
             <div className={styles.line}></div>
             <h2>Transfer</h2>
            <p>O design é impresso em um papel especial que posteriormente, é transferido para o brinde por meio de calor e pressão. Essa técnica oferece uma reprodução precisa de detalhes e cores, sendo ideal para designs variados. Ampla aplicação em camisetas, bonés, bolsas e uma variedade de produtos promocionais.</p>
+           
+            <div className={styles.centerButton}>
+              <Link className={styles.button} to="/services">Mais Serviços</Link>
+            </div>
         <div className={styles.line}></div>
       </div>
     </div>
