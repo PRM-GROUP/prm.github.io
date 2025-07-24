@@ -130,6 +130,26 @@ ul li img {
 
 /* Small devices (landscape phones, 768px and down) */
 @media (max-width: 768px) {
+    .container__contact {
+    flex-direction: column;
+    padding: 4rem 0;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  ul li {
+      justify-content: center;
+  }
+
+  .contact__text{
+    max-width: 95%;
+    margin: 0;
+  }
+
+  .contact__list {
+      max-width: 100%;
+      gap: 1rem;
+  }
     .services {
         padding: 3rem 0;
     }

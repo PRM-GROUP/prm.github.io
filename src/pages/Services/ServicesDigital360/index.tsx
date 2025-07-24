@@ -10,7 +10,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 export function Digital360() {
 
   return(
-  <main className={styles.main}>
+  <main id="services" className={styles.main}>
     <div className={`${styles.service__item} container`}>
           <img src={ImgDigital360} alt="Imagem laser" />
 

@@ -90,6 +90,7 @@ export function Header() {
     if (location.pathname === '/' && activeSection === '' && location.hash === `#${linkId}`) {
         return true;
     }
+
     return false;
   };
 
@@ -107,6 +108,8 @@ export function Header() {
   const headerClass = `${styles.headerBase} ${isScrolled ? styles.scroll : ''}`;
   // Combine mobile menu base class with open class
   const mobileMenuClass = `${styles.mobileMenu} ${isMobileMenuOpen ? styles.open : ''}`;
+
+  
 
   return (
     <header id="header" ref={headerRef} className={headerClass}>
