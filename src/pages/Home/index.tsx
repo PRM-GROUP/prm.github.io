@@ -9,8 +9,8 @@ import Phone_Icon from '../../assets/phone.svg';
 import PRW_Logo from '../../assets/LOGO PRW.svg';
 import { useState, useEffect, useRef } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
-import ImgPresentation from "../../assets/APRESENTAÇÃO.jpg";
-import ImgAboult from "../../assets/alboult.jpg";
+import ImgPresentation from "../../assets/APRESENTAÇÃO.webp";
+import ImgAboult from "../../assets/alboult.webp";
 
 type SectionRefs = {
   [key: string]: React.RefObject<HTMLElement | null>;
