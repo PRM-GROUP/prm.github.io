@@ -178,7 +178,7 @@ export function Header() {
           <Link
             smooth
             className={`${isLinkActive('contact') ? styles.active : ''}`}
-            to="/#contact"
+            to="/fale-conosco"
           >
             Contato
           </Link>
