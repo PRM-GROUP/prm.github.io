@@ -6,7 +6,6 @@ import WhatsApp from '../../assets/whatsapp.svg'
 import Map_Icon from '../../assets/map.svg'
 import Email_Icon from '../../assets/email.svg'
 import Phone_Icon from '../../assets/phone.svg'
-import PRW_Logo from '../../assets/LOGO PRW.svg'
 import { useState, useEffect, useRef } from 'react'
 import { HashLink as Link } from 'react-router-hash-link'
 import ImgPresentation from '../../assets/APRESENTACAO.webp'
@@ -145,7 +144,6 @@ export function Home() {
 
       <div className="divider-1"></div>
 
-    
       {/* CONTACT */}
       <section id="contact" ref={sectionsRef.contact}>
         <div className={`${styles.container__contact} container`}>
