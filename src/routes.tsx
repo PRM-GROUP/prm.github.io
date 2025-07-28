@@ -11,6 +11,7 @@ import { Digital360 } from './pages/Services/ServicesDigital360';
 import { Silk } from './pages/Services/ServicesSilk';
 import { Sublimacao } from './pages/Services/ServicesSublimacao';
 import { Tampografia } from './pages/Services/ServicesTampografia';
+import { About } from './pages/About';
 
 export function MainRoutes() {
   return (
@@ -27,6 +28,7 @@ export function MainRoutes() {
         <Route path="/silk" element={<Silk />} />
         <Route path="/sublimacao" element={<Sublimacao />} />
         <Route path="/tampografia" element={<Tampografia />} />
+        <Route path="/sobre" element={<About />} />
       </Route>
       <Route path="*" element={<Navigate to="/" />} />
     </Routes>
