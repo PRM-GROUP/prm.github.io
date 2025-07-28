@@ -7,7 +7,10 @@ import Email_Icon from '../../../assets/email.svg'
 import Phone_Icon from '../../../assets/phone.svg'
 import { HashLink as Link } from 'react-router-hash-link'
 
+import { useDocumentTitle } from '../../../hooks/useDocumentTitle'
+
 export function BaixoRelevo() {
+  useDocumentTitle('Gravação em Baixo Relevo')
   return (
     <main id="services" className={styles.main}>
       <div className={`${styles.service__item} container`}>
