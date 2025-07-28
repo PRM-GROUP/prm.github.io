@@ -10,7 +10,6 @@ import PRW_Logo from '../../assets/LOGO PRW.svg'
 import { useState, useEffect, useRef } from 'react'
 import { HashLink as Link } from 'react-router-hash-link'
 import ImgPresentation from '../../assets/APRESENTACAO.webp'
-import ImgAboult from '../../assets/alboult.webp'
 import { useDocumentTitle } from '../../hooks/useDocumentTitle'
 
 type SectionRefs = {
@@ -146,29 +145,7 @@ export function Home() {
 
       <div className="divider-1"></div>
 
-      {/* PRW EMBALAGENS */}
-      <section
-        className={styles.main__PRW}
-        id="prw_embalagens"
-        ref={sectionsRef.prw_embalagens}
-      >
-        <div className={`${styles.container__prw} container`}>
-          <div className={styles.image__prw}>
-            <img src={PRW_Logo} alt="Logo da PRW" />
-          </div>
-          <div className={styles.text__prw}>
-            <h2>Sua Marca, Nossa Arte PRW Embalagens</h2>
-            <p>
-              Transforme seus produtos com embalagens de papel personalizadas
-              que refletem a essência da sua marca e encantam seus clientes.
-            </p>
-            <a className={`${styles.button} ${styles.buttonPRW}`}>EM BREVE</a>
-          </div>
-        </div>
-      </section>
-
-      <div className="divider-2"></div>
-
+    
       {/* CONTACT */}
       <section id="contact" ref={sectionsRef.contact}>
         <div className={`${styles.container__contact} container`}>

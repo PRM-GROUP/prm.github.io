@@ -12,6 +12,7 @@ import { Silk } from './pages/Services/ServicesSilk'
 import { Sublimacao } from './pages/Services/ServicesSublimacao'
 import { Tampografia } from './pages/Services/ServicesTampografia'
 import { About } from './pages/About'
+import { PRW } from './pages/Prw'
 
 export function MainRoutes() {
   return (
@@ -29,6 +30,7 @@ export function MainRoutes() {
         <Route path="/sublimacao" element={<Sublimacao />} />
         <Route path="/tampografia" element={<Tampografia />} />
         <Route path="/sobre" element={<About />} />
+        <Route path="/prw" element={<PRW />} />
       </Route>
       <Route path="*" element={<Navigate to="/" />} />
     </Routes>

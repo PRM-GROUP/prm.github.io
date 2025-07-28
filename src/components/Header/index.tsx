@@ -171,7 +171,7 @@ export function Header() {
           <Link
             smooth
             className={`${isLinkActive('prw_embalagens') ? styles.active : ''}`}
-            to="/#prw_embalagens"
+            to="/prw"
           >
             PRW Embalagens
           </Link>
