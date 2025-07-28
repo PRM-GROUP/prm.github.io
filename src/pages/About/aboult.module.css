@@ -1,5 +1,21 @@
 /* ABOUT */
 
+.button {
+  width: 256px;
+  height: 50px;
+  border-radius: 0.25rem;
+  border: none;
+  color: #f9f9f9;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625rem;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  transition: background 0.3s;
+}
+
 .container__about {
   display: flex;
   align-items: center;

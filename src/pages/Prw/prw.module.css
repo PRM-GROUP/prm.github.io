@@ -1,7 +1,23 @@
 /* PRW Embalagens */
 
+.button {
+  width: 256px;
+  height: 50px;
+  border-radius: 0.25rem;
+  border: none;
+  color: #f9f9f9;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625rem;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  transition: background 0.3s;
+}
+
 .main__PRW {
-  background-color: #ECECEC;
+  background-color: #ececec;
   padding: 6rem 0;
 }
 
@@ -14,12 +30,12 @@
 }
 
 .image__prw {
-    flex: 1;
-    max-width: 40%;
-    text-align: center;
+  flex: 1;
+  max-width: 40%;
+  text-align: center;
 }
 
-.image__prw img{
+.image__prw img {
   height: auto;
   max-height: 250px;
   max-width: 100%;
@@ -32,18 +48,18 @@
   align-items: center;
   text-align: center;
 
-  a{
+  a {
     margin-left: auto;
     margin-right: auto;
   }
 }
 
-.buttonPRW{
-  background-color: #80330A
+.buttonPRW {
+  background-color: #80330a;
 }
 
 .buttonPRW:hover {
-  background: #ED6F00;
+  background: #ed6f00;
 }
 
 /* CONTACT */
