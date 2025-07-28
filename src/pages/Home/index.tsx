@@ -10,7 +10,6 @@ import PRW_Logo from '../../assets/LOGO PRW.svg'
 import { useState, useEffect, useRef } from 'react'
 import { HashLink as Link } from 'react-router-hash-link'
 import ImgPresentation from '../../assets/APRESENTACAO.webp'
-import ImgAboult from '../../assets/alboult.webp'
 import { useDocumentTitle } from '../../hooks/useDocumentTitle'
 
 type SectionRefs = {
@@ -89,42 +88,6 @@ export function Home() {
 
       <div className="divider-1"></div>
 
-      {/* ABOUT */}
-      <section id="about" ref={sectionsRef.about}>
-        <div className={`${styles.container__about} container`}>
-          <div className={styles.image__about}>
-            <img src={ImgAboult} alt="Trocar o Placehold" />
-          </div>
-
-          <div className={styles.text__about}>
-            <h2>Sobre Nós</h2>
-            <p>
-              Somos uma empresa especializada na comercialização e
-              personalização de produtos promocionais. Nossa equipe é
-              estruturada e comprometida em oferecer qualidade superior por meio
-              das mais diversas técnicas de gravação.
-            </p>
-            <br />
-            <p>
-              Existem diferentes tipos de gravação para brindes personalizados,
-              e conhecer cada uma delas é essencial para garantir que o
-              resultado final esteja alinhado com sua marca e objetivos de
-              campanha. Fatores como o perfil do público, a identidade visual da
-              sua marca, o tipo de ação promocional e o material do produto
-              influenciam diretamente na escolha da técnica mais apropriada.
-            </p>
-            <br />
-            <p>
-              A seguir, apresentamos os principais métodos de gravação
-              utilizados em brindes personalizados. Explicamos como cada técnica
-              funciona e indicamos suas aplicações mais comuns, ajudando você a
-              escolher a opção ideal para valorizar sua marca com eficiência e
-              impacto visual.
-            </p>
-          </div>
-        </div>
-      </section>
-
       <div className="divider-2"></div>
 
       {/* SERVICES */}
@@ -182,29 +145,7 @@ export function Home() {
 
       <div className="divider-1"></div>
 
-      {/* PRW EMBALAGENS */}
-      <section
-        className={styles.main__PRW}
-        id="prw_embalagens"
-        ref={sectionsRef.prw_embalagens}
-      >
-        <div className={`${styles.container__prw} container`}>
-          <div className={styles.image__prw}>
-            <img src={PRW_Logo} alt="Logo da PRW" />
-          </div>
-          <div className={styles.text__prw}>
-            <h2>Sua Marca, Nossa Arte PRW Embalagens</h2>
-            <p>
-              Transforme seus produtos com embalagens de papel personalizadas
-              que refletem a essência da sua marca e encantam seus clientes.
-            </p>
-            <a className={`${styles.button} ${styles.buttonPRW}`}>EM BREVE</a>
-          </div>
-        </div>
-      </section>
-
-      <div className="divider-2"></div>
-
+    
       {/* CONTACT */}
       <section id="contact" ref={sectionsRef.contact}>
         <div className={`${styles.container__contact} container`}>
