@@ -53,12 +53,10 @@ export function Contato() {
             </ul>
           </div>
         </div>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.094680767231!2d-46.657064899999995!3d-23.529096799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce58119718273d%3A0x72d14ba0c5e049b0!2sR.%20Barra%20Funda%2C%20659%20-%20Barra%20Funda%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001152-000!5e0!3m2!1spt-BR!2sbr!4v1753730648903!5m2!1spt-BR!2sbr"
-          width="1080"
-          height="600"
-          loading="lazy"
-        ></iframe>
+        <div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9021.394954912937!2d-46.657064899999995!3d-23.529096799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce58119718273d%3A0x72d14ba0c5e049b0!2sR.%20Barra%20Funda%2C%20659%20-%20Barra%20Funda%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001152-000!5e1!3m2!1spt-BR!2sbr!4v1753797458399!5m2!1spt-BR!2sbr" width="1080" height="600" loading="lazy"></iframe>
+        </div>
+              
       </section>
     </main>
   )
