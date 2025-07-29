@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from 'react'
-import { HashLink as Link } from 'react-router-hash-link'
 import { useLocation } from 'react-router-dom'
 import styles from './header.module.css'
 import logoColor from '../../assets/LOGOS PRM color.png'
@@ -139,9 +138,9 @@ export function Header() {
     <header id="header" ref={headerRef} className={headerClass}>
       <nav className={`${styles.header} container`}>
         {/* Logo */}
-        <Link to="/#home">
+        <a href="/">
           <img className={styles.logo} src={logoColor} alt="PRM TECPRINT" />
-        </Link>
+        </a>
 
         {/* Desktop Menu */}
         <div className={styles.menu}>

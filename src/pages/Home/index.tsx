@@ -75,9 +75,9 @@ export function Home() {
               Transformamos sua marca em presença: gravações com precisão,
               estilo e qualidade.
             </p>
-            <Link className={styles.button} to="/services">
+            <a className={styles.button} href="/servicos">
               Conheça nossos serviços
-            </Link>
+            </a>
           </div>
           <div className={styles.image__home}>
             <img src={ImgPresentation} alt="Imagem de apresentação" />

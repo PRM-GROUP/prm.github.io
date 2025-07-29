@@ -1,8 +1,9 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
+import { LayoutWithHeader } from './LayoutWithHeader'
 import { Home } from './pages/Home'
+import { About } from './pages/About'
 import { Services } from './pages/Services'
 import { BaixoRelevo } from './pages/Services/ServicesBaixoRelevo'
-import { LayoutWithHeader } from './LayoutWithHeader'
 import { DTF } from './pages/Services/ServicesDTF'
 import { Laser } from './pages/Services/ServicesLaser'
 import { Transfer } from './pages/Services/ServicesTransfer'
@@ -11,7 +12,6 @@ import { Digital360 } from './pages/Services/ServicesDigital360'
 import { Silk } from './pages/Services/ServicesSilk'
 import { Sublimacao } from './pages/Services/ServicesSublimacao'
 import { Tampografia } from './pages/Services/ServicesTampografia'
-import { About } from './pages/About'
 import { PRW } from './pages/Prw'
 import { Contato } from './pages/Contact'
 
@@ -20,6 +20,7 @@ export function MainRoutes() {
     <Routes>
       <Route element={<LayoutWithHeader />}>
         <Route path="/" element={<Home />} />
+        <Route path="/sobre" element={<About />} />
         <Route path="/servicos" element={<Services />} />
         <Route path="/gravacao-em-baixo-relevo" element={<BaixoRelevo />} />
         <Route path="/dtf" element={<DTF />} />
@@ -30,7 +31,6 @@ export function MainRoutes() {
         <Route path="/silk" element={<Silk />} />
         <Route path="/sublimacao" element={<Sublimacao />} />
         <Route path="/tampografia" element={<Tampografia />} />
-        <Route path="/sobre" element={<About />} />
         <Route path="/prw" element={<PRW />} />
         <Route path="/fale-conosco" element={<Contato />} />
       </Route>
