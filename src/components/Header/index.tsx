@@ -123,10 +123,10 @@ export function Header() {
     setIsMobileMenuOpen(!isMobileMenuOpen)
   }
 
-  // Close mobile menu when a link is clicked
-  const handleMobileLinkClick = () => {
-    setIsMobileMenuOpen(false)
-  }
+  // // Close mobile menu when a link is clicked
+  // const handleMobileLinkClick = () => {
+  //   setIsMobileMenuOpen(false)
+  // }
 
   // Combine base class with scroll class
   const headerClass = `${styles.headerBase} ${isScrolled ? styles.scroll : ''}`
@@ -192,47 +192,40 @@ export function Header() {
 
         {/* Mobile Menu Container */}
         <div className={mobileMenuClass}>
-          <Link
-            smooth
+          <a
             className={`${isLinkActive('home') ? styles.active : ''}`}
-            to="/#home"
-            onClick={handleMobileLinkClick}
+            href="/"
           >
             Home
-          </Link>
-          <Link
-            smooth
-            className={`${isLinkActive('about') ? styles.active : ''}`}
-            to="/#about"
-            onClick={handleMobileLinkClick}
+          </a>
+          <a
+            className={`${
+              isLinkActive('sobre', '/sobre') ? styles.active : ''
+            }`}
+            href="/sobre"
           >
             Sobre
-          </Link>
-          <Link
+          </a>
+          <a
             className={`${
-              isLinkActive('services', '/services') ? styles.active : ''
+              isLinkActive('servicos', '/servicos') ? styles.active : ''
             }`}
-            to="/services"
-            onClick={handleMobileLinkClick}
+            href="/servicos"
           >
             Serviços
-          </Link>
-          <Link
-            smooth
-            className={`${isLinkActive('prw_embalagens') ? styles.active : ''}`}
-            to="/#prw_embalagens"
-            onClick={handleMobileLinkClick}
+          </a>
+          <a
+            className={`${isLinkActive('prw', '/prw') ? styles.active : ''}`}
+            href="/prw"
           >
             PRW Embalagens
-          </Link>
-          <Link
-            smooth
+          </a>
+          <a
             className={`${isLinkActive('contact') ? styles.active : ''}`}
-            to="/#contact"
-            onClick={handleMobileLinkClick}
+            href="/fale-conosco"
           >
             Contato
-          </Link>
+          </a>
         </div>
       </nav>
     </header>
