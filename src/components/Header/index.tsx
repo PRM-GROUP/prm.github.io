@@ -123,10 +123,10 @@ export function Header() {
     setIsMobileMenuOpen(!isMobileMenuOpen)
   }
 
-  // Close mobile menu when a link is clicked
-  const handleMobileLinkClick = () => {
-    setIsMobileMenuOpen(false)
-  }
+  // // Close mobile menu when a link is clicked
+  // const handleMobileLinkClick = () => {
+  //   setIsMobileMenuOpen(false)
+  // }
 
   // Combine base class with scroll class
   const headerClass = `${styles.headerBase} ${isScrolled ? styles.scroll : ''}`
