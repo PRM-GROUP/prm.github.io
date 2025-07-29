@@ -145,43 +145,40 @@ export function Header() {
 
         {/* Desktop Menu */}
         <div className={styles.menu}>
-          <Link
-            smooth
+          <a
             className={`${isLinkActive('home') ? styles.active : ''}`}
-            to="/#home"
+            href="/"
           >
             Home
-          </Link>
-          <Link
+          </a>
+          <a
             className={`${
               isLinkActive('sobre', '/sobre') ? styles.active : ''
             }`}
-            to="/sobre"
+            href="/sobre"
           >
             Sobre
-          </Link>
-          <Link
+          </a>
+          <a
             className={`${
-              isLinkActive('services', '/services') ? styles.active : ''
+              isLinkActive('servicos', '/servicos') ? styles.active : ''
             }`}
-            to="/services"
+            href="/servicos"
           >
             Serviços
-          </Link>
-          <Link
-            smooth
+          </a>
+          <a
             className={`${isLinkActive('prw', '/prw') ? styles.active : ''}`}
-            to="/prw"
+            href="/prw"
           >
             PRW Embalagens
-          </Link>
-          <Link
-            smooth
+          </a>
+          <a
             className={`${isLinkActive('contact') ? styles.active : ''}`}
-            to="/fale-conosco"
+            href="/fale-conosco"
           >
             Contato
-          </Link>
+          </a>
         </div>
 
         {/* Mobile Menu Toggle Button */}

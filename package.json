@@ -2,7 +2,7 @@
   "name": "prm-gravacoes",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://beta.prmgravacoes.com.br/",
+  "homepage": "https://prm-group.github.io/prm.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",

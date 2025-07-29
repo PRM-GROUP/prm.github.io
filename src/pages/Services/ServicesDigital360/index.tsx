@@ -31,7 +31,7 @@ export function Digital360() {
           </p>
 
           <div className={styles.centerButton}>
-            <Link className={styles.button} to="/services">
+            <Link className={styles.button} to="/servicos">
               Mais Serviços
             </Link>
           </div>
