@@ -103,7 +103,7 @@ export function Home() {
           </div>
 
           <div className={styles.services__cards}>
-            <Link className={styles.service__card} to="/servicos/#silk_screen">
+            <Link className={styles.service__card} to="/servicos">
               <img
                 src={SilkScreen}
                 alt="Icon-SilkScreen"
@@ -117,7 +117,7 @@ export function Home() {
               </p>
             </Link>
 
-            <Link className={styles.service__card} to="/servicos/#transfer">
+            <Link className={styles.service__card} to="/servicos">
               <img src={Transfer} alt="Icon-Transfer" />
               <h3>Transfer</h3>
               <p>
@@ -127,7 +127,7 @@ export function Home() {
               </p>
             </Link>
 
-            <Link className={styles.service__card} to="/servicos/#laser">
+            <Link className={styles.service__card} to="/servicos">
               <img src={Laser} alt="Icon-Laser" />
               <h3>Laser</h3>
               <p>
