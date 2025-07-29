@@ -5,9 +5,51 @@ import Email_Icon from '../../assets/email.svg'
 import Phone_Icon from '../../assets/phone.svg'
 import { HashLink as Link } from 'react-router-hash-link'
 import { useDocumentTitle } from '../../hooks/useDocumentTitle'
+import { useState, useEffect } from 'react'
+
+interface WindowSize {
+  width: number
+  height: number
+}
 
 export function Contato() {
   useDocumentTitle('Contato')
+
+  console.log(window.innerWidth, window.innerHeight)
+
+  const [windowSize, setWindowSize] = useState<WindowSize>({
+    width: window.innerWidth,
+    height: window.innerHeight
+  })
+
+  // Função para atualizar as dimensões da janela
+  const updateWindowSize = () => {
+    setWindowSize({
+      width: window.innerWidth,
+      height: window.innerHeight
+    })
+  }
+
+  // useEffect para adicionar e remover o listener do evento resize
+  useEffect(() => {
+    // Adiciona o listener quando o componente é montado
+    window.addEventListener('resize', updateWindowSize)
+
+    // Função de limpeza: remove o listener quando o componente é desmontado
+    return () => {
+      window.removeEventListener('resize', updateWindowSize)
+    }
+  }, []) // Array vazio significa que o efeito roda apenas uma vez (na montagem)
+
+  // Função para calcular o tamanho da div baseado na janela
+  const getDivSize = () => {
+    return {
+      width: windowSize.width * 0.75, // 80% da largura da janela
+      height: windowSize.height * 0.6 // 60% da altura da janela
+    }
+  }
+
+  const divSize = getDivSize()
 
   return (
     <main>
@@ -55,8 +97,10 @@ export function Contato() {
         </div>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.094680767231!2d-46.657064899999995!3d-23.529096799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce58119718273d%3A0x72d14ba0c5e049b0!2sR.%20Barra%20Funda%2C%20659%20-%20Barra%20Funda%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001152-000!5e0!3m2!1spt-BR!2sbr!4v1753730648903!5m2!1spt-BR!2sbr"
-          width="1080"
-          height="600"
+          // width={'1080'}
+          // height="600"
+          width={`${divSize.width}px`}
+          height={`${divSize.height}px`}
           loading="lazy"
         ></iframe>
       </section>
