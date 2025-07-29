@@ -67,7 +67,7 @@ export function Home() {
   return (
     <main>
       {/* HOME */}
-      <section id="home" ref={sectionsRef.home}>
+      <section id="home">
         <div className={`${styles.container__home} container`}>
           <div className={styles.text__home}>
             <h1>Gravações Personalizadas com Excelência.</h1>
@@ -85,12 +85,10 @@ export function Home() {
         </div>
       </section>
 
-      <div className="divider-1"></div>
-
       <div className="divider-2"></div>
 
       {/* SERVICES */}
-      <section id="services" ref={sectionsRef.services}>
+      <section id="services">
         <div className={`${styles.container__services} container`}>
           <div className={styles.services__title}>
             <Link to="/services/#home_services">
@@ -105,7 +103,7 @@ export function Home() {
           </div>
 
           <div className={styles.services__cards}>
-            <Link className={styles.service__card} to="/services/#silk_screen">
+            <Link className={styles.service__card} to="/servicos/#silk_screen">
               <img
                 src={SilkScreen}
                 alt="Icon-SilkScreen"
@@ -119,7 +117,7 @@ export function Home() {
               </p>
             </Link>
 
-            <Link className={styles.service__card} to="/services/#transfer">
+            <Link className={styles.service__card} to="/servicos/#transfer">
               <img src={Transfer} alt="Icon-Transfer" />
               <h3>Transfer</h3>
               <p>
@@ -129,7 +127,7 @@ export function Home() {
               </p>
             </Link>
 
-            <Link className={styles.service__card} to="/services/#laser">
+            <Link className={styles.service__card} to="/servicos/#laser">
               <img src={Laser} alt="Icon-Laser" />
               <h3>Laser</h3>
               <p>
@@ -145,7 +143,7 @@ export function Home() {
       <div className="divider-1"></div>
 
       {/* CONTACT */}
-      <section id="contact" ref={sectionsRef.contact}>
+      <section id="contact">
         <div className={`${styles.container__contact} container`}>
           <div className={styles.contact__text}>
             <h2>Entre em Contato</h2>

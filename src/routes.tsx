@@ -20,7 +20,7 @@ export function MainRoutes() {
     <Routes>
       <Route element={<LayoutWithHeader />}>
         <Route path="/" element={<Home />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="/servicos" element={<Services />} />
         <Route path="/gravacao-em-baixo-relevo" element={<BaixoRelevo />} />
         <Route path="/dtf" element={<DTF />} />
         <Route path="/gravacao-a-laser" element={<Laser />} />
