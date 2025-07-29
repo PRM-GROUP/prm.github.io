@@ -88,3 +88,96 @@ ul li img {
   width: 100%;
   position: absolute;
 }
+
+iframe {
+  border: none;
+  width: 1080px;
+  height: 600px;
+}
+
+/* === Media Queries === */
+
+/* Medium devices (tablets, 992px and down) */
+@media (max-width: 1025px) {
+  iframe {
+    border: none;
+    width: 980px;
+    height: 600px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .container__contact {
+    padding: 6rem 0;
+  }
+
+  iframe {
+    border: none;
+    width: 980px;
+    height: 600px;
+  }
+}
+
+/* Small devices (landscape phones, 768px and down) */
+@media (max-width: 768px) {
+  .container__contact {
+    flex-direction: column;
+    padding: 4rem 0;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  ul li {
+    justify-content: center;
+  }
+
+  .contact__text {
+    max-width: 95%;
+    margin: 0;
+  }
+
+  .contact__list {
+    max-width: 100%;
+    gap: 1rem;
+  }
+
+  iframe {
+    border: none;
+    width: 740px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .service__item {
+    gap: 0;
+    margin-bottom: 0;
+  }
+
+  h2,
+  p {
+    margin-bottom: 1rem;
+  }
+
+  iframe {
+    border: none;
+    width: 400px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 375px) {
+  iframe {
+    border: none;
+    width: 350px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  iframe {
+    border: none;
+    width: 300px;
+    height: 300px;
+  }
+}
