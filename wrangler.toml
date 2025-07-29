@@ -1,0 +1,3 @@
+[assets]
+directory = "./dist/" # Ou o diretório de build da sua aplicação
+not_found_handling = "single-page-application"S
