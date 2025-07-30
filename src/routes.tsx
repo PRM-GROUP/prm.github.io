@@ -17,24 +17,21 @@ import { Contato } from './pages/Contact'
 
 export function MainRoutes() {
   return (
-    <Routes>
-      <Route element={<LayoutWithHeader />}>
-        <Route path="/" element={<Home />} />
-        <Route path="/sobre" element={<About />} />
-        <Route path="/servicos" element={<Services />} />
-        <Route path="/gravacao-em-baixo-relevo" element={<BaixoRelevo />} />
-        <Route path="/dtf" element={<DTF />} />
-        <Route path="/gravacao-a-laser" element={<Laser />} />
-        <Route path="/transfer" element={<Transfer />} />
-        <Route path="/digital" element={<Digital />} />
-        <Route path="/digital360" element={<Digital360 />} />
-        <Route path="/silk" element={<Silk />} />
-        <Route path="/sublimacao" element={<Sublimacao />} />
-        <Route path="/tampografia" element={<Tampografia />} />
-        <Route path="/prw" element={<PRW />} />
-        <Route path="/fale-conosco" element={<Contato />} />
-      </Route>
-      <Route path="*" element={<Navigate to="/" />} />
-    </Routes>
+    <Route element={<LayoutWithHeader />}>
+      <Route path="/" element={<Home />} />
+      <Route path="/sobre" element={<About />} />
+      <Route path="/servicos" element={<Services />} />
+      <Route path="/gravacao-em-baixo-relevo" element={<BaixoRelevo />} />
+      <Route path="/dtf" element={<DTF />} />
+      <Route path="/gravacao-a-laser" element={<Laser />} />
+      <Route path="/transfer" element={<Transfer />} />
+      <Route path="/digital" element={<Digital />} />
+      <Route path="/digital360" element={<Digital360 />} />
+      <Route path="/silk" element={<Silk />} />
+      <Route path="/sublimacao" element={<Sublimacao />} />
+      <Route path="/tampografia" element={<Tampografia />} />
+      <Route path="/prw" element={<PRW />} />
+      <Route path="/fale-conosco" element={<Contato />} />
+    </Route>
   )
 }
