@@ -1,3 +1,7 @@
+main {
+  padding-top: 0;
+}
+
 /* PRW Embalagens */
 
 .button {
@@ -127,8 +131,8 @@ ul li img {
 
 /* Small devices (landscape phones, 768px and down) */
 @media (max-width: 768px) {
-   .container__prw,
-   .container__contact {
+  .container__prw,
+  .container__contact {
     flex-direction: column;
     padding: 4rem 0;
     gap: 3rem;
@@ -264,4 +268,3 @@ ul li img {
     height: 200px;
   }
 }
-
