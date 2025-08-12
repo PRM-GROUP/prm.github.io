@@ -2,12 +2,12 @@ import styles from './services.module.css'
 import ImgBaixoRelevo from '../../assets/BAIXO RELEVO.jpg'
 import ImgDTF from '../../assets/DTF.png'
 import ImgLaser from '../../assets/LASER.jpg'
-import ImgSublimacao from '../../assets/SUBLIMAÇÃO.jpg'
+import ImgSublimacao from '../../assets/sublimacao.jpg'
 import ImgSilk from '../../assets/SILK.jpg'
 import ImgTampografia from '../../assets/TAMPOGRAFIA.jpg'
 import ImgTransfer from '../../assets/TRANSFER.jpg'
 import ImgDigital from '../../assets/DIGITAL.jpg'
-import ImgDigital360 from '../../assets/DIGITAL 360°.jpg'
+import ImgDigital360 from '../../assets/digital360.jpg'
 
 import WhatsApp from '../../assets/whatsapp.svg'
 import Map_Icon from '../../assets/map.svg'
@@ -216,7 +216,7 @@ export function Services() {
             </p>
 
             <div className={styles.centerButton}>
-              <Link className={styles.button} to="/digital">
+              <Link className={styles.button} to="/gravacao-digital-uv">
                 Conheça mais
               </Link>
             </div>
@@ -246,7 +246,7 @@ export function Services() {
             </p>
 
             <div className={styles.centerButton}>
-              <Link className={styles.button} to="/digital360">
+              <Link className={styles.button} to="/gravacao-digital-uv-360">
                 Conheça mais
               </Link>
             </div>
