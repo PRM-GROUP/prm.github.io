@@ -1,4 +1,4 @@
-import ImgDigital360 from '../../../assets/digital360.jpg'
+import ImgDigital360 from '../../../assets/digital360.webp'
 import styles from './ServiceDetail.module.css'
 
 import WhatsApp from '../../../assets/whatsapp.svg'
@@ -9,7 +9,7 @@ import { HashLink as Link } from 'react-router-hash-link'
 import { useDocumentTitle } from '../../../hooks/useDocumentTitle'
 
 export function Digital360() {
-  useDocumentTitle('Digital 360')
+  useDocumentTitle('Gravação Digital UV 360')
 
   return (
     <main id="services" className={styles.main}>
