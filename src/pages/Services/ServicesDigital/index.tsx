@@ -1,4 +1,4 @@
-import ImgDigital from '../../../assets/DIGITAL.jpg'
+import ImgDigital from '../../../assets/digital.webp'
 import styles from './ServiceDetail.module.css'
 
 import WhatsApp from '../../../assets/whatsapp.svg'
@@ -9,7 +9,7 @@ import { HashLink as Link } from 'react-router-hash-link'
 import { useDocumentTitle } from '../../../hooks/useDocumentTitle'
 
 export function Digital() {
-  useDocumentTitle('Digital')
+  useDocumentTitle('Gravação Digital UV')
 
   return (
     <main className={styles.main}>

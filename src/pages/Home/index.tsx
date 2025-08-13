@@ -1,7 +1,7 @@
 import styles from './home.module.css'
-import Laser from '../../assets/Laser-Icon.svg'
-import Transfer from '../../assets/Transfer-Icon.svg'
-import SilkScreen from '../../assets/Silk-Icon.svg'
+import Laser from '../../assets/laserIcon.webp'
+import Transfer from '../../assets/transfericon.webp'
+import SilkScreen from '../../assets/silkicon.webp'
 import WhatsApp from '../../assets/whatsapp.svg'
 import Map_Icon from '../../assets/map.svg'
 import Email_Icon from '../../assets/email.svg'
@@ -40,7 +40,7 @@ export function Home() {
       <section id="services">
         <div className={`${styles.container__services} container`}>
           <div className={styles.services__title}>
-            <Link to="/services/#home_services">
+            <Link to="/servicos">
               <h2>Serviços</h2>
             </Link>
             <p>

@@ -1,4 +1,4 @@
-import ImgDTF from '../../../assets/DTF.png'
+import ImgDTF from '../../../assets/dtf.webp'
 import styles from './ServiceDetail.module.css'
 
 import WhatsApp from '../../../assets/whatsapp.svg'
@@ -22,7 +22,7 @@ export function DTF() {
             <Link to={'/servicos'}>Seriços</Link>
           </li>
           <li>
-            <Link to={'/DTF'}>DTF</Link>
+            <Link to={'/dtf'}>DTF</Link>
           </li>
         </ul>
       </div>
@@ -61,7 +61,7 @@ export function DTF() {
       <section id="contact">
         <div className={`${styles.container__contact} container`}>
           <div className={styles.contact__text}>
-            <h1>Entre em Contato</h1>
+            <h2>Entre em Contato</h2>
             <p>
               Entre em contato com a PRM TecPrint, queremos tirar suas dúvidas.
             </p>
