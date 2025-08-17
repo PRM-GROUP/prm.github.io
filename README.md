@@ -1,6 +1,6 @@
 # PRM Gravações
 
-![PRM Gravações](src/assets/LOGOS%20PRM%20color.png)
+![PRM Gravações](src/assets/LOGOS%20PRM%20PB.png)
 
 ## 📖 Sobre
 
