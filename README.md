@@ -34,7 +34,7 @@ Para executar o projeto localmente, siga os passos abaixo:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/ismaeldan/prm.github.io.git](https://github.com/ismaeldan/prm.github.io.git)
+    git clone git@github.com:PRM-GROUP/prm.github.io.git
     ```
 2.  **Instale as dependências:**
     ```bash
